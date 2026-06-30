@@ -34,6 +34,10 @@ outputs/logs/
 .env
 *.key
 
+#local test files - not part of the actual pipeline
+selfie.jpeg
+face_crop_preview.jpeg
+
 # OS / Editor
 .DS_Store
 .vscode/
