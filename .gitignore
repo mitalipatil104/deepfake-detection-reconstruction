@@ -36,6 +36,7 @@ outputs/logs/
 
 #local test files - not part of the actual pipeline
 selfie.jpeg
+selfie2.jpeg
 face_crop_preview.jpeg
 
 # OS / Editor
