@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets - never commit raw data, it's too large for GitHub
+dataset/raw/
+dataset/*.zip
+dataset/*.mp4
+*.csv
+
+# Model weights - too large for git, track separately or via Git LFS / HF Hub
+models/*.pt
+models/*.pth
+models/*.h5
+models/checkpoints/
+
+# Outputs
+outputs/*.png
+outputs/*.jpg
+outputs/logs/
+
+# Environment / secrets
+.env
+*.key
+
+# OS / Editor
+.DS_Store
+.vscode/
+*.swp
+
+# Hugging Face Spaces cache
+flagged/
+gradio_cached_examples/

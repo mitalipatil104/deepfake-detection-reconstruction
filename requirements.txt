@@ -1,0 +1,9 @@
+opencv-python==4.10.0.84
+numpy==1.26.4
+torch==2.3.1
+torchvision==0.18.1
+timm==1.0.7
+gradio==4.40.0
+scikit-learn==1.5.1
+matplotlib==3.9.1
+Pillow==10.4.0
